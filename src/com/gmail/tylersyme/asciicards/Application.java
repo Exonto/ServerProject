@@ -33,9 +33,8 @@ public class Application
 	
 	private Application()
 	{
-		MySQL.serverLaunch("root", "89817371a");
-		
-		//MySQL.getCardCollection("Tyler").forEach((item) -> System.out.println(item.getTemplate().getDescription()));
+		// Replace the 'x' with database password
+		MySQL.serverLaunch("root", "xxxxxxxxxxx");
 	}
 	
 	/**
